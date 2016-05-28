@@ -1,0 +1,120 @@
+﻿The Things Network New York                  24 MAY 2016
+
+
+Introductions
+
+
+Attendance:
+* Terry - initiator
+* Mimi - front-end, fin background
+* Forrest
+* Manny
+* Chris M
+* Joe K - EE at WeWork
+* Chris S
+* Tom L: .nyc TLD
+* Frank R
+* Charlie Tranen: propoint
+* Josh Yu Sustainability consultant for Taiwan govt, renewable energy and IT
+* Waldemar M: sells SIM cards for IoT, and kits (ThingConnect)
+* Mike Palamara: sys engineer and coder 
+
+
+Agenda:
+
+
+1. Update on formal group status, incorporation, and related plans
+   1. Terry sent in the name hold to NYS
+   2. Frank: What’s our objective for incorporating?
+      1. Terry: want to isolate us from liability or sustainability
+         1. Non-profit vs for profit (LLC)
+      1. Charlie: what’s our goal, mission,etc?
+      2. Terry: we have a mission statement that states…
+      3. Frank: we’re advocating for a community structure for IoT versus
+      4. commercial open secure alternative infrastructure. Representation. 
+      5. Terry: longterm, we will need someone to actually run and maintain it
+      6. Chris M: owned and operated by their users. 
+      7. Liability--SLA turned down to zero
+      8. need a lawyer to set it up right - Terry
+      9. Terry: law firms want access to tech… 
+1. Communication: Web site, mailing list, slack channels, outreach, etc
+   1. Slack has been in active use. HOw is it working for us internally?
+      1. Manny: sometimes things get buried in conversation.
+         1. Chris S: lets be consistent about our use of private vs public
+         2. Terry: Private helps regulate poor behavior online.
+         3. Chris M: Slack is an IM service, when we have something important we send it to our github or website, minutes, etc.
+         4. Joe: recommends using github wiki when topics keep coming up that are important.
+         5. Chris M: wants to share important info with the global community vie the things network global site vs nyc specific stuff.
+         6. Chris M: we can run our own infrastructure here vs using europe. We can keep it up and running just fine. Frank was working on this already. Wants to push up to the global community.
+         7. Terry: this may become very public, lets do a good job.
+         8. Forrest: wants a project manager, tooling to support
+         9. Terry: lets not waste too much time solving meta problems. Just tools. Focus on our objectives. Engineering is working on answering factual empirical perspective. How can we do this? Do we need professionals to install--or could we install it with people deploying from their living rooms…
+1. Gateway deployment plans, providing test demo opportunities
+   1. Chris M: they’re listening most of the time, so its ok to have extra gateway coverage
+   2. Chris S: coverage, engineering
+   3. CM: key test to check range in mid-town→ invites to test in mid-town
+   4. Joe: 18th and 6th ,have 4 conduit gateways on wework locations with mdots.
+   5. Tom: NY Mesh has access to verizon building, will get in touch with them
+   6. Mimi: offered to place a gateway in her apartment by BK Bridge on Manhattan: talk to other landlords?
+   7. Terry: attenuation issues, through glass, and other surfaces; could talk to landlord, coop/condo orgs
+   8. Need reference model for Gateway deployment--Develop a team?
+1.    1. Use cases - good demos, collecting ideas in general
+   2. Chris S: let's do something real, realistic, and we can pilot with.
+   3. Terry: their killer app was the water issue with boats on canals.  We need something that is relevant to us. ITs all about our local needs. There are some cities that are similar--now you could market your products in various locations.
+   4. Waldemar: sharing economy
+   5. Control of irrigation: urban agriculture - chris M, Terry
+   6. Josh Y: recent conference for Parks without boarder, a multiagency conference dept parks DOT, DEP, urban planning mayors office, examining open space and parks, streets,and sitewalks. Exploring this realestate to explore.
+   7. Terry: tree limbs are an issue
+   8. Tom: rain barrels the city is giving out to keep water out of the sewer
+   9. Terry: have another session on use cases--now lets act on this. Set up something
+   10. Forrest: will organize use-case collection
+   11. Chris M: Chris S came up with use case limitations with our tech.
+   12. Chris S: Have to find the idea that fits, need to challenge ourselves to do it. Set a time to do it. 
+1. Nodes  experiments, stuff members can buy, stuff we design
+2. Frank: SigFox discussion
+   1. 1. Terry: MultiTech partnership (discounts, no support)
+   1. No need for dev kits
+1. Forrest: Workflow management: Odoo Mimi “Asana”
+2. Anything else such as groups or individual we should approach, events we should be present at, perhaps someday holding a workshop (when we have gear) etc (listed in somewhat random order)
+3. 
+
+Charlie Tranen pushed us to think about why we’re incorporating. C. Merck suggested we’re something to represent the owners of the gateways in New York. Terry’s worried about legalities of handling money.
+
+
+Self-Appointed Roles:
+Forrest: uses
+CHris M: radio range mapping how many we will need --working group
+Frank: wants to come up with a global solution with mapping of the things network
+Lets all have something that we want to move towards until our next meeting.
+Charlie: write up a brief explanation proposal for our LoRA nyc.
+Terry: needs guidance from group about who to contact that would be helpful to us.
+
+
+
+
+
+
+Mimi: design, gateway hosting from her ap
+Mike: infrastructure needs?
+Chris M: yes, we need VM with router instances, and all gateways are all linux boxes that need to be managed.  Mike is great at managing linux things.
+Terry: Netherlands is coming up with remote management software.
+Josh Y: can help with communication with manufacturing in Taiwan. Has a service that will help get specifications and requirements of hardware/software, govt will help with matchmaking.
+Chris S: interested in expanding the backend to extend to other communication protocols.
+Frank: a characteristic of nodes, we will find them where people are not. Putting them in remote items we want to hear from.
+Chris M: how do we feel about commercial entities using our system
+Terry: tap back into the SLA and utilize that to control any issues.
+Chris S: best outcome is that people use the network and are successful vs them putting up their own network
+Terry: we're creating a mission critical infrastructure so they don’t have to and somehow we would profit from the open source project, as subject matter experts.
+Chris S: making a node that does not require code, you could click through a GUI to set it up and utilize it for your needs.
+Terry: worries about IP rights--who owns the work we do here? We should make sure that everyone still has rights over potential profits in the future.
+Mike P: What license do you want to use, and also other commercial issuess.
+Waldemar: Some tutorials handle GSM for his kit using arduino, would like to use the pi for wifi. Would like to use chris s’s hardware and sell that
+Terry: need nominclature and explanation. 
+Frank: sends UDP packets
+Chris S: radio is lora, lorawan is the way multiple radios connected node-gateway, TTN is the place that multiple gateways can send their data in the floud.  MIssing the firmware, and ultimate consumer application which pulls data out of the could and turns it into a tweet or something.
+Terry: TTn also includes provisioning posibilities. Now the current generation is more set up for end user.
+Waldermar: prototyping on the TTN, and then move on at scale?
+
+
+Final Thoughts
+Tom:
